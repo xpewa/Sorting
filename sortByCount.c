@@ -7,7 +7,6 @@ void sortByCount(int* arr, int size, const int maxValue) {
 
     int* sortArr = (int*)calloc(maxValue, sizeof(int));
 
-    printf("\n");
     for ( int i = 0; i < size; i++ ) {
         sortArr[arr[i]]++;
     }
