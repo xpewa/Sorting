@@ -14,7 +14,6 @@ void Quicksort(int *a,int first,int last){
         pivot=first;
         i=first;
         j=last;
-
         while(i<j){
             while(a[i]<=a[pivot]&&i<last)
             i++;
@@ -33,9 +32,9 @@ void Quicksort(int *a,int first,int last){
 
 int main()
 {
-    int n=5;
-    int a[n];
+    int n;
     scanf("%d", &n);
+    int a[n];
     for(int i=0; i<n; i++){
         scanf("%d", &a[i]);
     }
